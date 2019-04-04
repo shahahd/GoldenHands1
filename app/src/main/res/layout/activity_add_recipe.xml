@@ -440,6 +440,39 @@
                 </LinearLayout>
 
             </LinearLayout>
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="179dp">
+
+                <com.goole.android.material.chip.Chip
+                    android:layout_width="80dp"
+                    android:layout_height="41dp"
+
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="Chip"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.149"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.524" />
+
+                <com.goole.android.material.chip.Chip
+
+                    android:layout_width="158dp"
+                    android:layout_height="63dp"
+                    android:layout_marginBottom="8dp"
+                    android:padding="12dp"
+                    android:text="chip"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.76"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.537" />
+            </android.support.constraint.ConstraintLayout>
 
 
         </LinearLayout>
