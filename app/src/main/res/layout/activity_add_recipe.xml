@@ -438,21 +438,9 @@
                         android:baselineAligned="false"
                         android:onClick="onSDelete" />
                 </LinearLayout>
+
             </LinearLayout>
-            <com.goole.android.material.chip.Chip
-                android:layout_width="warp_content"
-                android:layout_height="warp_content"
-                android:padding="12dp"
-                android:text="chip"
-                />
-            <com.goole.android.material.chip.Chip
-                android:layout_width="warp_content"
-                style="@style/Widget.MaterialComponent.Chip.Entry"
-                android:layout_height="warp_content"
-                android:layout_marginBottom="8dp"
-                android:padding="12dp"
-                android:text="chip"
-                />
+
 
         </LinearLayout>
     </ScrollView>

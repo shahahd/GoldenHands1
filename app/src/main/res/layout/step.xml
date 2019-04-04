@@ -38,6 +38,7 @@
         android:layout_weight=".5"
         android:background="@drawable/remove"
         android:baselineAligned="false"
-        android:onClick="onSDelete" />
+        android:onClick="onSDelete"
+         />
 
 </LinearLayout>
